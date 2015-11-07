@@ -1,0 +1,13 @@
+td {
+    padding-left:10px;
+}
+.path, .bd {
+    display:none;
+}
+.btnSubmit {
+    text-align: center;
+    margin-top:5px;
+}
+.btnSubmit input[type='submit']{
+    width:80%;
+}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.7" client="site" method="upgrade">
+    <name>LoadExcelFile</name>
+    <author>choco</author>
+    <creationDate>08.2015</creationDate>
+    <copyright>Copyright (C) 2015</copyright>
+    <license>GNU/GPL</license>
+    <authorEmail>choco-cat@mail.ru</authorEmail>
+    <authorUrl>pratsa.ru</authorUrl>
+    <version>1.00</version>
+    <description>Закрузка данных из выбранного файла MS Excel в формате JSON на сервер</description>
+    <administration>
+        <menu>Загрузка файла</menu>
+        <files folder="admin">
+            <folder>include</folder>
+            <folder>views</folder>
+            <folder>js</folder>
+            <folder>css</folder>
+            <folder>models</folder>
+            <filename>index.html</filename>
+            <filename>LoadExcelFile.php</filename>
+            <filename>controller.php</filename>
+        </files>
+    </administration>
+</extension>
